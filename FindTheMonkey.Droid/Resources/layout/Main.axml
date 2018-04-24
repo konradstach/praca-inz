@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="2"
+    android:orientation="vertical">
+    <Button
+        android:text="Prowadź do"
+        android:id="@+id/navigateToButton"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_width="192dp"
+        android:layout_height="275dp" />
+    <Button
+        android:text="Informacje"
+        android:id="@+id/infoButton"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_width="192dp"
+        android:layout_height="275dp" />
+    <Button
+        android:text="Wyjście"
+        android:id="@+id/appExitButton"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_width="192dp"
+        android:layout_height="275dp" />
+</GridLayout>
